@@ -1,0 +1,207 @@
+* {box-sizing: border-box;}
+
+/*html {
+  font-size: 1em;
+  font-family:  Trebuchet MS, Arial, sans-serif;
+}*/
+
+body {
+   background-color: white;
+   position:relative;
+   margin: 0 auto;
+   width: 70%;
+}
+
+
+#primary-content {
+  font-family:  Trebuchet, Arial, Helevetica sans, sans-serif;
+  font-size: 3rem;
+  /*padding: 0.2em 1em 1em 3em;*/
+  /*font-weight: bold;*/
+  /*color:#7c795d;*/
+  /*line-height: 1;*/
+  /*font-size: 2rem;*/
+  /*text-align: center;*/
+}
+
+/*header p {
+  font-size: 1.5rem;
+}*/
+/*
+#primary-content::first-letter{
+   font-size: 3rem;
+}*/
+
+.page-header {
+  margin: 0 rem auto;
+  /*text-align: center;*/
+  background-color: black;
+  color: white;
+  padding: 0.2em 1em 1em 2em;
+}
+/*header, footer {
+  margin: 0 rem auto;
+  background-color: black;
+  color: white;
+  padding: 0.2em 1em 1em 2em;
+}*/
+
+footer {
+  margin: 0 rem auto;
+  background-color: black;
+  color: white;
+  padding: 0.2em 1em 1em 2em;
+}
+
+.menu-navigation-bar {
+  /*border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;*/
+  background-color: rgba(82, 106, 104, 0.4);
+  font-size: 1em;
+  margin: 0;
+  padding: 0.2em 1rem;
+}
+
+.menu-navigation-bar li {
+  display: inline;
+
+  font-size: 1.75rem;
+  text-shadow: 0 0 0.1rem #333;
+  padding: 0rem;
+}
+
+.menu-navigation-bar a {
+  display: inline-block;
+  padding: 0.80rem;
+}
+
+main {
+
+  /*margin: 1 rem auto;*/
+  /*text-align: center;*/
+   /*background-color: lightgray;*/
+   /*padding: 0.01em;*/
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.container {
+  border: 1px solid #ccc;
+  background: #ddd;
+  margin: 0 auto;
+  height: 35rem;
+  width: 100%;
+
+  display:flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+.navigation-panel {
+  /*background-color: skyblue;*/
+  background-color: rgba(82, 106, 104, 0.4);
+  font-size: 1em;
+}
+
+.kitties-menu {
+  display: inline-block;
+
+  /*color: white;*/
+  font-size: 1.75rem;
+  text-shadow: 0 0 0.1rem #333;
+  /*letter-spacing: -1px;*/
+  /*text-align: center;*/
+  /*background: skyblue;*/
+  padding: 1rem;
+
+}
+
+.main-articles {
+  /*border: 1px solid #ccc;
+  margin: 0 auto;
+  height: 50rem;
+  width: 50rem;*/
+}
+
+.book-a-cat {
+  color:red;
+  font-size: 1.5rem;
+  text-align: right;
+  font-family: sans-serif;
+}
+
+.cat-of-the-week{
+  border: 1px solid blue;
+  height: 12rem;
+  width: 15rem;
+  margin: 0.5rem;
+
+}
+
+
+.cat-fan-favorite {
+  border: 1px solid blue;
+  height: 12rem;
+  width: 15rem;
+  margin: 0.5rem;
+}
+
+header p {
+  /*padding: 0.2em 1em 1em 3em;*/
+  font-size: 1.5rem;
+  line-height: 0.1rem;
+}
+
+footer p {
+
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header-footer-link {
+  color: red;
+}
+
+footer h3 {
+  margin: 1rem 0;
+  line-height: 0.7rem;
+}
+
+
+.cat-hight-lights{
+  border: 1px solid blue;
+  height: 30rem;
+  width: 20rem;
+  margin: 0.5rem;
+
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.kitties-to-go-business {
+
+}
+.cat-story-testimonials {
+
+}
+
+.cat-articles {
+  padding: 2rem;
+}
+
+.cat-articles p {
+    font-size: 1.4rem;
+    color: rgba(17, 26, 33, 0.69);
+}
