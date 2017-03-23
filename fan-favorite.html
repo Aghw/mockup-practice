@@ -5,52 +5,88 @@
     <title>Fan Favorite</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-    <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/positioning.css">
   </head>
   <body>
 
     <header>
-      <h2 class="book-a-cat">
-        <a class="header-footer-link"
-          alt="Book-a-cat" href="">
-          Open right MEOW! Book a cat &rarr;
-        </a>
-      </h2>
-      <h1 id="primary-content">Fan Favorite</h1>
+        <div class="page-header">
+            <h2 class="book-a-cat">
+              <a class="header-footer-link"
+                alt="Book-a-cat" href="">
+                Open right MEOW! Book a cat &#10140;
+              </a>
+            </h2>
+            <h1 id="primary-content">Fan Favorite</h1>
 
-      <p>
-        Seattle's premiere drive-thru cat rentals
-      </p>
+            <p>
+              Seattle's premiere drive-thru cat rentals
+            </p>
+            <nav class="page-navigation">
+              <a class="previous-page"  alt="Cat of the Week page" href="cat-of-the-week.html">&#8678; Previous-Page</a>
+            </nav>
+            <!-- <a class="next-page"  alt="main-page" href="index.html">Main Page >></a> -->
+        </div>
+
+        <nav>
+            <ul class="menu-navigation-bar">
+              <li>
+                <a alt="About" href="">About</a>
+              </li>
+              <li>
+                <a alt="Rates" href="">Rates</a>
+              </li>
+              <li>
+                <a alt="Liability Release" href="">Liability Release</a>
+              </li>
+              <li>
+                <a alt="Kitty Profiles" href="">Kitty Profiles</a>
+              </li>
+              <li>
+                <a alt="Kitty Profiles" href="">Book a Cat</a>
+              </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <!-- <aside class="navigation-panel"> -->
-      <nav class="navigation-panel">
-          <div class="kitties-menu">
-              <a alt="About" href="">About</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Rates" href="">Rates</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Liability Release" href="">Liability Release</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Kitty Profiles" href="">Kitty Profiles</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Kitty Profiles" href="">Book a Cat</a>
+      <div class="container-main">
+
+        <article class="cat-articles">
+          <h2 class="page-heading">Fan Favorite</h2>
+          <p>
+            Fusce dapibus convallis purus, malesuada maximus tellus placerat sit amet. Nam dapibus lectus rhoncus tortor ultrices elementum. Nulla at ipsum gravida diam viverra consequat sit amet vel neque. Donec suscipit mi ac elit dignissim, in porta dui tempor. Maecenas laoreet lacus lectus, ac rutrum dui sodales in. Suspendisse accumsan placerat bibendum. Quisque vulputate lectus velit, sed lobortis mauris dapibus ut. Cras mollis placerat augue, et tempor erat tincidunt at. Nunc porttitor mollis dignissim.
+          </p>
+
+          <p>
+            Etiam euismod vestibulum hendrerit. Sed ac consequat nulla. Phasellus et hendrerit odio. Proin accumsan felis non est viverra, eu sagittis velit sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer condimentum dapibus purus, sit amet consequat velit porta non. Donec porttitor facilisis magna id suscipit. Integer suscipit cursus fermentum. Phasellus iaculis erat eu bibendum fermentum. Aenean in rutrum elit. Ut feugiat, purus id gravida fermentum, ante massa condimentum felis, elementum maximus sapien dui nec diam. Sed convallis nulla leo, a semper mi malesuada vel. Duis ultricies sem quis enim tincidunt tempus. Nullam in efficitur lacus. Aenean ut pulvinar arcu. Proin eu tortor gravida, tempus nibh ac, posuere arcu.
+          </p>
+        </article>
+
+        <div class="cat-highlights">
+
+          <div class="cat-of-the-week">
+            <h2>Cat of the Week</h2>
+            <img src="images/cat-of-the-week.jpg" alt="picture of the cat of the week">
+            <h2>The Biscuit</h2>
+            <p>
+              All she wants is to break your walls.
+
+            <a class="book-highlighted-cat"
+             alt="Book cat of the weeks." href="" >Book now  &#10140;</a>
+             </p>
           </div>
 
-      </nav>
-      <!-- </aside> -->
+          <div class="cat-fan-favorite">
+            <h2>Fan Favorite</h2>
+            <img src="images/fan-favorite.jpg" alt="picture of fan favorite cat">
 
-      <article class="">
-        <h2>Fan Favorite</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </article>
+            <h2>Odin</h2>
+            <a class="book-highlighted-cat"  alt="Book cat of the week" href="" >Book now  &#10140;</a>
+          </div>
+        </div>
+
+      </div>
     </main>
 
     <footer>

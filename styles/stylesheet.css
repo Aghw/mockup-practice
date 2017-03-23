@@ -1,12 +1,9 @@
 * {box-sizing: border-box;}
 
-/*html {
-  font-size: 1em;
-  font-family:  Trebuchet MS, Arial, sans-serif;
-}*/
 
 body {
-   background-color: white;
+
+   background-color: #A99490;
    position:relative;
    margin: 0 auto;
    width: 70%;
@@ -16,21 +13,10 @@ body {
 #primary-content {
   font-family:  Trebuchet, Arial, Helevetica sans, sans-serif;
   font-size: 3rem;
-  /*padding: 0.2em 1em 1em 3em;*/
-  /*font-weight: bold;*/
-  /*color:#7c795d;*/
-  /*line-height: 1;*/
-  /*font-size: 2rem;*/
-  /*text-align: center;*/
+
 }
 
-/*header p {
-  font-size: 1.5rem;
-}*/
-/*
-#primary-content::first-letter{
-   font-size: 3rem;
-}*/
+
 
 .page-header {
   margin: 0 rem auto;
@@ -39,12 +25,13 @@ body {
   color: white;
   padding: 0.2em 1em 1em 2em;
 }
-/*header, footer {
-  margin: 0 rem auto;
-  background-color: black;
-  color: white;
-  padding: 0.2em 1em 1em 2em;
-}*/
+
+.page-heading {
+  font-size: 2rem;
+  margin: 0;
+  font-family: sans-serif;
+}
+
 
 footer {
   margin: 0 rem auto;
@@ -54,12 +41,7 @@ footer {
 }
 
 .menu-navigation-bar {
-  /*border: 1px solid #ccc;
-  border-width: 1px 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;*/
+
   background-color: rgba(82, 106, 104, 0.4);
   font-size: 1em;
   margin: 0;
@@ -81,56 +63,71 @@ footer {
 
 main {
 
-  /*margin: 1 rem auto;*/
-  /*text-align: center;*/
-   /*background-color: lightgray;*/
-   /*padding: 0.01em;*/
+  width: 100%;
+
 }
+
+
+.container-main {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
 
 img {
   max-width: 100%;
   max-height: auto;
 }
 
-.container {
-  border: 1px solid #ccc;
-  background: #ddd;
+
+.container-main {
+  background-color: white;
   margin: 0 auto;
-  height: 35rem;
   width: 100%;
+  padding: 2rem;
 
   display:flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
-  justify-content: space-between;
-  /*align-items: center;*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 
+
 .navigation-panel {
-  /*background-color: skyblue;*/
   background-color: rgba(82, 106, 104, 0.4);
   font-size: 1em;
 }
 
+
+
 .kitties-menu {
   display: inline-block;
 
-  /*color: white;*/
   font-size: 1.75rem;
   text-shadow: 0 0 0.1rem #333;
-  /*letter-spacing: -1px;*/
-  /*text-align: center;*/
-  /*background: skyblue;*/
   padding: 1rem;
 
 }
 
-.main-articles {
-  /*border: 1px solid #ccc;
-  margin: 0 auto;
-  height: 50rem;
-  width: 50rem;*/
+
+.item {
+  display: inline-block;
+
+  color: white;
+  text-shadow: 0 0 0.1rem #333;
+  letter-spacing: -1px;
+  text-align: center;
 }
+
 
 .book-a-cat {
   color:red;
@@ -139,24 +136,68 @@ img {
   font-family: sans-serif;
 }
 
-.cat-of-the-week{
-  border: 1px solid blue;
-  height: 12rem;
-  width: 15rem;
-  margin: 0.5rem;
 
+
+.book-highlighted-cat {
+  position: absolute;
+  right: 1rem;
+}
+
+
+.cat-highlights{
+  position: relative;
+  border: 1px solid black;
+  height: 35rem;
+  width: 15rem;
+
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.cat-of-the-week img {
+  width: 100%;
+}
+.cat-of-the-week{
+  height: 12rem;
+  width: 90%;
+  margin-bottom: 4rem;
+  margin-top: 0.5rem;
+}
+
+
+.cat-of-the-week h2 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+
+.cat-of-the-week p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  width: 60%;
+  text-align: left;
+  padding-left: 0;
 }
 
 
 .cat-fan-favorite {
-  border: 1px solid blue;
   height: 12rem;
-  width: 15rem;
+  width: 90%;
   margin: 0.5rem;
+  margin-top: 1rem;
+}
+
+.cat-fan-favorite h2 {
+  font-weight: lighter;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 header p {
-  /*padding: 0.2em 1em 1em 3em;*/
   font-size: 1.5rem;
   line-height: 0.1rem;
 }
@@ -179,26 +220,9 @@ footer h3 {
 }
 
 
-.cat-hight-lights{
-  border: 1px solid blue;
-  height: 30rem;
-  width: 20rem;
-  margin: 0.5rem;
-
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-}
-
-.kitties-to-go-business {
-
-}
-.cat-story-testimonials {
-
-}
-
 .cat-articles {
-  padding: 2rem;
+  width: 70%;
+  padding: 0 2rem;
 }
 
 .cat-articles p {

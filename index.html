@@ -5,6 +5,7 @@
       <title>Kitties To Go</title>
       <link rel="stylesheet" type="text/css" href="styles/normalize.css">
       <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="styles/positioning.css">
   </head>
   <body>
       <header>
@@ -21,26 +22,13 @@
           <p>
             Seattle's premiere drive-thru cat rentals
           </p>
-        </div>
-          <!-- <nav class="navigation-panel">
-              <div class="kitties-menu">
-                  <a alt="About" href="">About</a>
-              </div>
-              <div class="kitties-menu">
-                  <a alt="Rates" href="">Rates</a>
-              </div>
-              <div class="kitties-menu">
-                  <a alt="Liability Release" href="">Liability Release</a>
-              </div>
-              <div class="kitties-menu">
-                  <a alt="Kitty Profiles" href="">Kitty Profiles</a>
-              </div>
-              <div class="kitties-menu">
-                  <a alt="Kitty Profiles" href="">Book a Cat</a>
-              </div>
-          </nav> -->
 
-          <nav>
+          <nav class="page-navigation">
+            <a class="next-page"  alt="cat-of-the-week page" href="cat-of-the-week.html">Next-Page &#8680;</a>
+          </nav>
+        </div>
+
+        <nav>
             <ul class="menu-navigation-bar">
               <li>
                 <a alt="About" href="">About</a>
@@ -58,62 +46,23 @@
                 <a alt="Kitty Profiles" href="">Book a Cat</a>
               </li>
             </ul>
-          </nav>
+        </nav>
       </header>
 
       <main>
-<!--
-        <nav class="navigation-panel">
-            <div class="kitties-menu">
-                <a alt="About" href="">About</a>
-            </div>
-            <div class="kitties-menu">
-                <a alt="Rates" href="">Rates</a>
-            </div>
-            <div class="kitties-menu">
-                <a alt="Liability Release" href="">Liability Release</a>
-            </div>
-            <div class="kitties-menu">
-                <a alt="Kitty Profiles" href="">Kitty Profiles</a>
-            </div>
-            <div class="kitties-menu">
-                <a alt="Kitty Profiles" href="">Book a Cat</a>
-            </div>
-        </nav> -->
-            <!-- <ul class="kitties-menu">
-              <li>
-                <a alt="About" href="">About</a>
-              </li>
-              <li>
-                <a alt="Rates" href="">Rates</a>
-              </li>
-              <li>
-                <a alt="Liability Release" href="">Liability Release</a>
-              </li>
-              <li>
-                <a alt="Kitty Profiles" href="">Kitty Profiles</a>
-              </li>
-              <li>
-                <a alt="Kitty Profiles" href="">Book a Cat</a>
-              </li>
-            </ul> -->
-
-        <!-- </nav> -->
-
-        <div class="container">
-
+        <div class="container-main">
           <div class="cat-articles">
 
-              <article class="kitties-to-go-business">
-                <h2>The Kitties To Go story</h2>
+              <!-- <article class="kitties-to-go-business"> -->
+                <h2 class="page-heading">The Kitties To Go story</h2>
                 <p>
                   Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destroy the blinds for curl into a furry donut swat turds arounds the house kick up litter thug cat stare at ceiling light. intently stare at the same spot paw at beetle and eat it before it gets away scamper.
 
                 </p>
-              </article>
+              <!-- </article> -->
 
-              <article class="cat-story-testimonials">
-                  <h2>Testimonials</h2>
+              <!-- <article class="cat-story-testimonials"> -->
+                  <h2 class="page-heading">Testimonials</h2>
                   <p>
                   <em>  "Please stop looking at your phone and pet me. Lounge in doorway eat and then sleep on your face meowwww meowwww." </em> - Jeremy
                   </p>
@@ -121,23 +70,33 @@
                   <p>
                   <em>  "Meow get video posted to internet for chansing red dot." </em> - Jenny from the bock
                   </p>
-              </article>
+              <!-- </article> -->
             </div>
-            <div class="cat-hight-lights">
-              <h2>Cat of the Week</h2>
+
+            <div class="cat-highlights">
+
               <div class="cat-of-the-week">
-                <img src="images/kitten-04.jpg" alt="picture of the cat of the week">
+                <h2>Cat of the Week</h2>
+                <img src="http://lorempixel.com/250/150/cats/" alt="picture of the cat of the week">
+                <h2>The Biscuit</h2>
+                <p>
+                  All she wants is to break your walls.
+
+                <a class="book-highlighted-cat"
+                 alt="Book cat of the weeks." href="" >Book now  &#10140;</a>
+                 </p>
               </div>
 
               <div class="cat-fan-favorite">
+                <h2>Fan Favorite</h2>
                 <img src="images/fan-favorite.jpg" alt="picture of fan favorite cat">
+
+                <h2>Odin</h2>
+                <a class="book-highlighted-cat"  alt="Book cat of the week" href="" >Book now  &#10140;</a>
               </div>
             </div>
-
-        </div>
+          </div>
       </main>
-
-
       <footer>
           <h3>Kitties to Go!</h3>
           <h3>(555) 867-5309</h3>

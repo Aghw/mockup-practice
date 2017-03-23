@@ -5,58 +5,95 @@
     <title>Cat of the Week</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-    <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/positioning.css">
   </head>
   <body>
 
     <header>
-      <h2 class="book-a-cat">
-        <a class="header-footer-link"
-          alt="Book-a-cat" href="">
-          Open right MEOW! Book a cat &rarr;
-        </a>
-      </h2>
-      <h1 id="primary-content">Cat of the Week</h1>
+        <div class="page-header">
+          <h2 class="book-a-cat">
+            <a class="header-footer-link"
+              alt="Book-a-cat" href="">
+              Open right MEOW! Book a cat &#10140;
+            </a>
+          </h2>
+          <h1 id="primary-content">Cat of the Week</h1>
 
-      <p>
-        Seattle's premiere drive-thru cat rentals
-      </p>
+          <p>
+            Seattle's premiere drive-thru cat rentals
+          </p>
+          <nav class="page-navigation">
+            <a class="previous-page"  alt="main-page" href="index.html">&#8678; Prevous-Page</a>
+            <a class="next-page"  alt="fan favorite page" href="fan-favorite.html">Next-Page &#8680;</a>
+          </nav>
+        </div>
+        <nav>
+            <ul class="menu-navigation-bar">
+              <li>
+                <a alt="About" href="">About</a>
+              </li>
+              <li>
+                <a alt="Rates" href="">Rates</a>
+              </li>
+              <li>
+                <a alt="Liability Release" href="">Liability Release</a>
+              </li>
+              <li>
+                <a alt="Kitty Profiles" href="">Kitty Profiles</a>
+              </li>
+              <li>
+                <a alt="Kitty Profiles" href="">Book a Cat</a>
+              </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <!-- <aside class="navigation-panel"> -->
-      <nav class="navigation-panel">
-          <div class="kitties-menu">
-              <a alt="About" href="">About</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Rates" href="">Rates</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Liability Release" href="">Liability Release</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Kitty Profiles" href="">Kitty Profiles</a>
-          </div>
-          <div class="kitties-menu">
-              <a alt="Kitty Profiles" href="">Book a Cat</a>
-          </div>
+      <div class="container-main">
 
-      </nav>
-      <!-- </aside> -->
+        <article class="cat-articles">
+          <h2 class="page-heading">Cat of the Week</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet, ex ac elementum ullamcorper, lectus elit maximus lorem, quis consequat velit sem a lacus. Morbi finibus orci eu ornare imperdiet. Duis non sagittis odio. Nulla iaculis, tortor vel vulputate sollicitudin, enim est pulvinar mi, in cursus leo odio id est. Sed maximus, diam elementum bibendum accumsan, nisl arcu vulputate tortor, at maximus mi nisi feugiat nibh. In rutrum urna felis, nec cursus lorem tincidunt quis. Proin placerat velit et elementum blandit. Aliquam pellentesque sapien turpis. Etiam vitae erat ac libero varius malesuada. Nulla sit amet commodo dolor. Nulla lectus elit, sagittis ut turpis et, sagittis condimentum ligula. Fusce at pellentesque ligula, vitae ornare dui. Donec lorem ligula, rutrum sit amet nibh eu, maximus fermentum ipsum. Vestibulum rhoncus libero magna, non dapibus lacus maximus sed.
+          </p>
+          <p>
+            Etiam elit purus, maximus in lacinia sit amet, ullamcorper ut ipsum. Vestibulum enim orci, maximus ut molestie eget, commodo nec diam. Vestibulum finibus at magna non varius. Etiam quam massa, mollis sit amet tempus in, efficitur vitae augue. In aliquam commodo ex, consectetur sagittis ex ornare ac. In erat neque, pretium sit amet elit eu, luctus fermentum mi. Sed ac nibh felis. Duis ac est ac augue dignissim suscipit. Nulla blandit auctor sem in porta. Proin cursus, magna id commodo semper, est diam aliquet diam, in luctus metus nisi in felis. Vivamus nec convallis velit. Aliquam erat volutpat.
+          </p>
 
-      <article class="">
-        <h2>Cat of the Week</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </article>
+        </article>
+
+        <div class="card">
+            <img class="card-main-image"
+            src="http://lorempixel.com/600/200/food/" alt="pesto bruschetta">
+
+            <a class="card-favorite" href="">
+              <img src="images/heart-icon.jpg" alt="heart icon -- click to add to favorites">
+            </a>
+
+            <h2 class="card-headline">
+              Pesto Bruschetta
+
+              <p>
+                <cite class="card-author">Peter Carlsson</cite>
+              </p>
+            </h2>
+
+            <a class="card-reminder" href="#">
+              <img src="images/red-alarm-clock.jpg" alt="alarm-clock icon -- not known what it is for">
+            </a>
+
+            <p class="card-byline">
+              Aenean quis nunc sed leo pretium porta et a enim. Phasellus consequat at nisl sed aliquet. Donec posuere felis sed consequat placerat. Praesent condimentum, nibh vel mollis convallis, dui velit volutpat dui.
+            </p>
+
+          </div>
+        </div>
     </main>
 
     <footer>
       <h3>Kitties to Go!</h3>
       <h3>(555) 867-5309</h3>
-      <a class="header-footer-link" 
+      <a class="header-footer-link"
           alt="Contact email for kitties to go!" href="">
           <h3>kittiestogo@catmail.com</h3>
       </a>
