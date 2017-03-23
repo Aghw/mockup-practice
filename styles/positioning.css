@@ -54,17 +54,15 @@
 }
 
 .card-headline {
-  margin: 2rem 2rem 0;
+  margin: 2rem 2rem 1rem;
   font-family: sans-serif;
   font-weight: normal;
   padding-left: 2rem;
 }
 
-.card-headline p {
-  font-size: 0.90rem;
-}
 
 .card-author {
+    margin: 2rem 0 3rem 0;
     font-size: 0.90rem;
 }
 

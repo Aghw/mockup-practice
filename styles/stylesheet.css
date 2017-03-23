@@ -16,11 +16,8 @@ body {
 
 }
 
-
-
 .page-header {
   margin: 0 rem auto;
-  /*text-align: center;*/
   background-color: black;
   color: white;
   padding: 0.2em 1em 1em 2em;
@@ -62,9 +59,7 @@ footer {
 }
 
 main {
-
   width: 100%;
-
 }
 
 
